@@ -67,6 +67,5 @@ This dataset can be used for a variety of tasks, such as data exploration and vi
 17.  Finally, i Hyper Tuned the Linear Regression model. i got 0.6298 as R2 score and 0.3058 as MAPE. Then i plotted the model for evaluation.
     
 
-### So, i came to a conclusion that the Hyper Tuned XGBOOST Regression model is the ideal machine learning model for house price prediction in this dataset. 
-
+### I concluded that the Hyper-Tuned XGBOOST Regression model is the most suitable machine learning approach for predicting house prices in this dataset.
 
