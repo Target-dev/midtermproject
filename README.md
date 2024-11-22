@@ -1,5 +1,4 @@
-# California Housing Prices Regression Analysis
-
+# Using Regression Analysis to predict California Housing Prices 
 The California housing price dataset is taken from the StatLib library and is maintained by the Computational and Applied Mathematics Group at UC Berkeley. The dataset contains information on the housing prices in California, including features such as the longitude, latitude, housing median age, total number of rooms, total number of bedrooms, and population.
 
 **Dataset: [https://www.kaggle.com/datasets/camnugent/california-housing-prices](https://www.kaggle.com/datasets/camnugent/california-housing-prices)**
