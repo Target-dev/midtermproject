@@ -1,30 +1,30 @@
 # Using Regression Analysis to predict California Housing Prices 
-The California housing price dataset is taken from the StatLib library and is maintained by the Computational and Applied Mathematics Group at UC Berkeley. The dataset contains information on the housing prices in California, including features such as the longitude, latitude, housing median age, total number of rooms, total number of bedrooms, and population.
+The dataset for California housing price is taken from the StatLib library and is maintained by the Computational and Applied Mathematics Group at UC Berkeley. The dataset contains information on the housing prices in California, including features such as the population, total number of rooms ,total number of bedrooms ,housing median age, longitude and latitude.
 
 **Dataset: [https://www.kaggle.com/datasets/camnugent/california-housing-prices](https://www.kaggle.com/datasets/camnugent/california-housing-prices)**
 
 ## Data Description
 
-The California Housing Prices Dataset contains 20,640 observations and 9 variables:
+The California Housing Prices Dataset contains 9 variables and 20,640 observations:
 
-1.  **longitude:** a float value indicating the longitude of the housing area
+1.  **population:** a float value indicating the population in the area
     
-2.  **latitude:** a float value indicating the latitude of the housing area
+2. **total_rooms:** a float value indicating the total number of rooms in the area
     
-3.  **housing_median_age:** a float value indicating the median age of the housing in the area
+3. **total_bedrooms:** a float value indicating the total number of bedrooms in the area
     
-4.  **total_rooms:** a float value indicating the total number of rooms in the area
+4. **housing_median_age:** a float value indicating the median age of the housing in the area
     
-5.  **total_bedrooms:** a float value indicating the total number of bedrooms in the area
+5. **households:** a float value indicating the number of households in the area
     
-6.  **population:** a float value indicating the population in the area
+6. **median_income:** a float value indicating the median income of the area
     
-7.  **households:** a float value indicating the number of households in the area
+7. **median_house_value:** a float value indicating the median house value in the area
     
-8.  **median_income:** a float value indicating the median income of the area
+8. **longitude:** a float value indicating the longitude of the housing area 
     
 
-9. **median_house_value:** a float value indicating the median house value in the area
+9. **latitude:** a float value indicating the latitude of the housing area
 
 ## Usage
 
