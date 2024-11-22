@@ -32,27 +32,27 @@ This dataset can be used for a variety of tasks, such as data exploration and vi
 
 ## Methodology
 
-1.  i imported all the necessary libraries into our project.
+1.  I imported all the necessary libraries into our project.
     
-2.  i load the dataset.
+2.  I load the dataset.
     
-3. i checked the columns and their data types.
+3. I checked the columns and their data types.
     
-4.  i found the ocean_proximity column as an object.
+4.  I found the ocean_proximity column as an object.
     
-5.  i checked for null values in our dataset. i found 207 null values in the bedrooms column.
+5.  I checked for null values in our dataset. i found 207 null values in the bedrooms column.
     
-6.  i replaced the null bedroom values with room values. Now there are no null values left in the dataframe.
+6.  I replaced the null bedroom values with room values. Now there are no null values left in the dataframe.
     
-7.  i encoded the ocean proximity column.
+7.  I encoded the ocean proximity column.
     
-8.  i checked the correlation heatmap for our dataframe.
+8.  I checked the correlation heatmap for our dataframe.
     
-9.  i checked the median house value column distribution of our dataframe.
+9.  I checked the median house value column distribution of our dataframe.
     
-10.  Then splitted my data into train and test respectively 80/20 splits.
+10.  I splitted my data into train and test respectively 80/20 splits.
     
-11.  Then i trained Linear Regression, XGBoost and Catboost for our dataframe.
+11.  I trained Linear Regression, XGBoost and Catboost for our dataframe.
     
 12.  In linear regression i got 0.6298 as R2 score and 0.3058 as MAPE (Mean Absolute Percentage Error). Then i plotted the model for evaluation .
     
@@ -60,9 +60,9 @@ This dataset can be used for a variety of tasks, such as data exploration and vi
     
 14.  In CatBoost Regression i got 0.8527 as R2 score and 0.1647 as MAPE. Then i plotted the model for evaluation and it turned out that it performed way better than the previously trained models.
     
-15.  Then i Hyper Tuned the CatBoost Regression model. i got 0.8189 as R2 score and 0.1863 as MAPE. Which is not as good as the regular CatBoost Regression model. Then we plotted the model for evaluation.
+15.  I Hyper Tuned the CatBoost Regression model. i got 0.8189 as R2 score and 0.1863 as MAPE. Which is not as good as the regular CatBoost Regression model. Then we plotted the model for evaluation.
     
-16.  Afterwards i Hyper Tuned the XGBoost model. i got 0.8553 as R2 score and 0.1627 as MAPE. Which is better than the regular XGBoost Regression & CatBoost models. Then i plotted the model for evaluation.
+16.  I Hyper Tuned the XGBoost model. i got 0.8553 as R2 score and 0.1627 as MAPE. Which is better than the regular XGBoost Regression & CatBoost models. Then i plotted the model for evaluation.
     
 17.  Finally, i Hyper Tuned the Linear Regression model. i got 0.6298 as R2 score and 0.3058 as MAPE. Then i plotted the model for evaluation.
     
