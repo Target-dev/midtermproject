@@ -3,7 +3,7 @@ The dataset for California housing price is taken from the StatLib library and i
 
 **Dataset: [https://www.kaggle.com/datasets/camnugent/california-housing-prices](https://www.kaggle.com/datasets/camnugent/california-housing-prices)**
 
-## Data Description
+## Description of Data
 
 The California Housing Prices Dataset contains 9 variables and 20,640 observations:
 
